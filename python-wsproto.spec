@@ -35,3 +35,5 @@ WebSockets state-machine based protocol implementation
 %files
 %license LICENSE
 %doc README.rst
+%{python_sitelib}/wsproto-%{version}-py*.egg-info
+%{python_sitelib}/wsproto/
