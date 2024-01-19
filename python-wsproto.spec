@@ -35,7 +35,3 @@ WebSockets state-machine based protocol implementation
 %files
 %license LICENSE
 %doc README.rst
-
-%files -n python-%{pypi_name}-doc
-%doc html
-%license LICENSE
