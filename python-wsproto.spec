@@ -1,7 +1,7 @@
 %global pypi_name wsproto
 
 Name:           python-%{pypi_name}
-Version:        1.2.0
+Version:        1.3.2
 Release:        1
 Summary:        WebSockets state-machine based protocol implementation
 Group:          Development/Python
@@ -35,5 +35,5 @@ WebSockets state-machine based protocol implementation
 %files
 %license LICENSE
 %doc README.rst
-%{python_sitelib}/wsproto-%{version}-py*.egg-info
+%{python_sitelib}/wsproto-%{version}.dist-info/
 %{python_sitelib}/wsproto/
