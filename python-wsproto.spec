@@ -11,14 +11,11 @@ Source0:        https://files.pythonhosted.org/packages/source/w/wsproto/wsproto
 BuildArch:      noarch
 
 BuildRequires:  pkgconfig(python)
-BuildRequires:  python3dist(h11)
-BuildRequires:  python3dist(setuptools)
-BuildRequires:  python3dist(pip)
-BuildRequires:  python3dist(wheel)
-BuildRequires:  python3dist(sphinx)
-BuildRequires:  python3dist(pytest)
+BuildRequires:  python%{pyver}dist(h11)
+BuildRequires:  python%{pyver}dist(setuptools)
+BuildRequires:  python%{pyver}dist(pip)
 
-Requires:       python3dist(h11)
+Requires:       python%{pyver}dist(h11)
 
 %description
 WebSockets state-machine based protocol implementation
