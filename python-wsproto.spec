@@ -2,7 +2,7 @@
 
 Name:           python-%{pypi_name}
 Version:        1.3.2
-Release:        1
+Release:        2
 Summary:        WebSockets state-machine based protocol implementation
 Group:          Development/Python
 License:        MIT
